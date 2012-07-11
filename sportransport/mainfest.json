@@ -1,0 +1,16 @@
+
+{
+  "name": "Sport transporter",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Import-Export excercises between sport event tracking web sites",
+  "browser_action": {
+    "default_icon": "favicon.ico",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "http://edzesonline.hu",
+    "http://endomondo.com",
+    "http://connect.garmin.com"
+  ]
+}
